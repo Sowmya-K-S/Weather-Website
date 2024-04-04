@@ -1,0 +1,71 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background-image: url('./Assets/weather.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap:100px;
+}
+
+.city-input
+{
+    /* border:solid 2px yellow; */
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+input
+{
+    height:25px;
+    width:300px;
+    border:solid white 2px;
+    border-radius: 10px;
+    background-color: transparent;
+    color:white;
+    padding:10px;
+    font-size: 15px;
+    outline: none;
+
+}
+input:focus
+{
+    box-shadow: 0px 0px 20px red;
+}
+::placeholder
+{
+    color:white;
+    opacity:1;
+}
+button
+{
+    height:50px;
+    width:100px;
+    background-color: transparent;
+    border:white solid 2px;
+    border-radius: 10px;
+    padding:10px;
+    text-align: center;
+    font-size: 17px;
+    color:white;
+}
+button:hover
+{
+    box-shadow: 0px 0px 20px red;
+}
+
+
+/* outputs */
+
+.outputs
+{
+    border: 2px solid yellow;
+    width:500px;   
+}
